@@ -2,6 +2,7 @@ let toggleBtn = document.getElementById('toggle-btn');
 let body = document.body;
 let darkMode = localStorage.getItem('dark-mode');
 
+
 const enableDarkMode = () =>{
    toggleBtn.classList.replace('fa-sun', 'fa-moon');
    body.classList.add('dark');
@@ -56,3 +57,4 @@ window.onscroll = () =>{
       body.classList.remove('active');
    }
 }
+
