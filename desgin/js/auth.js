@@ -39,4 +39,3 @@ submit.addEventListener("click", function (event){
         alert("Este email ja sendo utilizado")
     });
 })
-
